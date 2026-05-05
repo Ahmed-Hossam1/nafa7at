@@ -1,45 +1,41 @@
-# نفحات للعطور - Nafahat Perfumes 🌸
+# Nafahat Perfumes 🌸
 
-متجر إلكتروني فاخر للعطور الشرقية والفرنسية، يتميز بتصميم عصري وتجربة مستخدم سلسة.
+A premium e-commerce platform for high-end perfumes, featuring a modern design, seamless user experience, and full shopping functionality.
 
-## ✨ المميزات (Features)
+## ✨ Features
 
-- **تجربة تسوق متكاملة**: تصفح العطور، عرض التفاصيل، وإضافتها للسلة.
-- **إدارة السلة**: إضافة/حذف المنتجات وتعديل الكميات مع حساب فوري للإجمالي.
-- **نظام بحث وفلترة**: ابحث عن عطرك المفضل أو قم بالفلترة حسب التصنيفات (رجالي، نسائي، شرقي...).
-- **إتمام الطلب (Checkout)**: نظام دفع وتوصيل تجريبي متكامل.
-- **تصميم متجاوب**: متوافق تمامًا مع جميع الشاشات (الجوال، الجهاز اللوحي، الحاسوب).
-- **أداء عالٍ**: استخدام React مع Vite لضمان سرعة فائقة في التنقل.
-- **تخزين محلي (Persistence)**: حفظ محتويات السلة حتى بعد إغلاق المتصفح.
+- **Complete Shopping Experience**: Browse through various perfume categories, view detailed product information, and add items to your cart.
+- **Advanced Cart Management**: Add or remove products and adjust quantities with real-time total price calculations.
+- **Search & Filtering System**: Find your favorite scents easily with a functional search bar and category-based filters (Men, Women, Oriental, French, etc.).
+- **Smooth Checkout Flow**: A mock checkout system including shipping information entry and payment method selection.
+- **Fully Responsive Design**: Perfectly optimized for all devices, including mobile, tablets, and desktops.
+- **High Performance**: Built with React and Vite to ensure lightning-fast navigation and smooth transitions.
+- **Persistent Storage**: Your cart is saved automatically using `localStorage`, keeping your items safe even if you refresh or close the browser.
 
-## 🛠️ التقنيات المستخدمة (Tech Stack)
+## 🛠️ Tech Stack
 
 - **React 18**
 - **TypeScript**
-- **Tailwind CSS** (التنسيق الجمالي)
-- **Framer Motion** (الحركات والتحولات)
-- **React Router Dom** (التنقل بين الصفحات)
-- **Lucide React** (الأيقونات)
+- **Tailwind CSS** (Styling & Design)
+- **Framer Motion** (Animations & Page Transitions)
+- **React Router Dom** (Navigation & Routing)
+- **Lucide React** (Modern Iconography)
 
-## 🚀 تشغيل المشروع (Getting Started)
+## 🚀 Getting Started
 
-للتحميل والتشغيل محليًا:
+To get the project up and running locally:
 
 ```bash
-# تثبيت التبعيات
+# Install dependencies
 npm install
 
-# تشغيل المشروع في وضع التطوير
+# Run in development mode
 npm run dev
 ```
 
-## 📸 لقطات من المشروع (Screenshots)
+## 📜 License
 
-*سيتم إضافة الصور قريبًا...*
-
-## 📜 الترخيص (License)
-
-هذا المشروع مخصص للأغراض التعليمية والتوضيحية.
+This project is created for educational and demonstration purposes.
 
 ---
-تم التطوير بواسطة **أحمد حسام**.
+Developed with ❤️ by **Ahmed Hossam**.
