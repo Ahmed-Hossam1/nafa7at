@@ -1,50 +1,45 @@
-# React + TypeScript + Vite
+# نفحات للعطور - Nafahat Perfumes 🌸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+متجر إلكتروني فاخر للعطور الشرقية والفرنسية، يتميز بتصميم عصري وتجربة مستخدم سلسة.
 
-Currently, two official plugins are available:
+## ✨ المميزات (Features)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **تجربة تسوق متكاملة**: تصفح العطور، عرض التفاصيل، وإضافتها للسلة.
+- **إدارة السلة**: إضافة/حذف المنتجات وتعديل الكميات مع حساب فوري للإجمالي.
+- **نظام بحث وفلترة**: ابحث عن عطرك المفضل أو قم بالفلترة حسب التصنيفات (رجالي، نسائي، شرقي...).
+- **إتمام الطلب (Checkout)**: نظام دفع وتوصيل تجريبي متكامل.
+- **تصميم متجاوب**: متوافق تمامًا مع جميع الشاشات (الجوال، الجهاز اللوحي، الحاسوب).
+- **أداء عالٍ**: استخدام React مع Vite لضمان سرعة فائقة في التنقل.
+- **تخزين محلي (Persistence)**: حفظ محتويات السلة حتى بعد إغلاق المتصفح.
 
-## Expanding the ESLint configuration
+## 🛠️ التقنيات المستخدمة (Tech Stack)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React 18**
+- **TypeScript**
+- **Tailwind CSS** (التنسيق الجمالي)
+- **Framer Motion** (الحركات والتحولات)
+- **React Router Dom** (التنقل بين الصفحات)
+- **Lucide React** (الأيقونات)
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 تشغيل المشروع (Getting Started)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+للتحميل والتشغيل محليًا:
+
+```bash
+# تثبيت التبعيات
+npm install
+
+# تشغيل المشروع في وضع التطوير
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 📸 لقطات من المشروع (Screenshots)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+*سيتم إضافة الصور قريبًا...*
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📜 الترخيص (License)
+
+هذا المشروع مخصص للأغراض التعليمية والتوضيحية.
+
+---
+تم التطوير بواسطة **أحمد حسام**.
